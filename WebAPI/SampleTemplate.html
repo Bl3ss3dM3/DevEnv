@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Template</title>
+</head>
+<body>
+  <h1>Template ID: {{templateId}}</h1>
+  <div>
+    <p>DBA: {{oneToOneData.dba}}</p>
+    <p>Address1: {{oneToOneData.Address1}}</p>
+    <p>Address2: {{oneToOneData.Address2}}</p>
+    <p>City, State Zip: {{oneToOneData.City, State Zip}}</p>
+    <p>Contact Email: {{oneToOneData.Contact Email}}</p>
+    <p>MID: {{oneToOneData.MID}}</p>
+    <p>Statement Date: {{oneToOneData.StatementDate}}</p>
+    <p>Start Date: {{oneToOneData.StartDate}}</p>
+    <p>End Date: {{oneToOneData.EndDate}}</p>
+    <p>Outstanding Score: {{oneToOneData.Outstanding Score}}</p>
+    <p>Extra: {{oneToOneData.Extra}}</p>
+  </div>
+  {% for table in tableData %}
+    <h2>{{table.name}}</h2>
+    <table>
+      <tr>
+        {% for header in table.headers %}
+          <th>{{header}}</th>
+        {% endfor %}
+      </tr>
+      {% for row in table.data %}
+        <tr>
+          <td>{{row.Date}}</td>
+          <td>{{row.Description}}</td>
+          <td>{{row.ExtraField1}}</td>
+          <td>{{row.ExtraField2}}</td>
+          <td>{{row.ExtraField3}}</td>
+        </tr>
+      {% endfor %}
+    </table>
+  {% endfor %}
+</body>
+</html>

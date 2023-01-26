@@ -1,0 +1,92 @@
+{
+  "templateId": "a37b5cf1-cbc0-4df7-97a2-0936cc064032",
+  "oneToOneData": [
+    {
+      "dba": "Doing business"
+    },
+    {
+      "Address1": "Customer"
+    },
+    {
+      "Address2": "Customer"
+    },
+    {
+      "City, State Zip": "Customer"
+    },
+    {
+      "Contact Email": "Customer"
+    },
+    {
+      "MID": "MIDDD"
+    },
+    {
+      "StatementDate": "10/10/2022"
+    },
+    {
+      "StartDate": "10/01/2022"
+    },
+    {
+      "EndDate": "10/10/2022"
+    },
+    {
+      "Outstanding Score": "100"
+    },
+    {
+      "Extra": "0000001"
+    }
+  ],
+  "tableData": [
+    {
+      "name": "table1",
+      "headers": [
+        "Date",
+        "Description",
+        "ExtraField1",
+        "ExtraField2",
+        "ExtraField3"
+      ],
+      "data": [
+        {
+          "Date": "10/10/2022",
+          "Description": "Rizal",
+          "ExtraField1": "Tondo",
+          "ExtraField2": "Tondo",
+          "ExtraField3": "Tondo"
+        },
+        {
+          "Date": "10/10/2022",
+          "Description": "Rizal",
+          "ExtraField1": "Tondo",
+          "ExtraField2": "Tondo",
+          "ExtraField3": "Tondo"
+        }
+      ]
+    },
+    {
+      "name": "table2",
+      "headers": [
+        "Date",
+        "Description",
+        "ExtraField1",
+        "ExtraField2",
+        "ExtraField3"
+      ],
+      "data": [
+        {
+          "Date": "10/10/2022",
+          "Description": "Rizal",
+          "ExtraField1": "Tondo",
+          "ExtraField2": "Tondo",
+          "ExtraField3": "Tondo"
+        },
+        {
+          "Date": "10/10/2022",
+          "Description": "Rizal",
+          "ExtraField1": "Tondo",
+          "ExtraField2": "Tondo",
+          "ExtraField3": "Tondo"
+        }
+      ]
+    }
+  ]
+}
